@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  node: &node
+    build:
+      context: ./docker/development
+    volumes:
+      - .:/home/app
+  runner:
+    <<: *node
+    command: /bin/sh
