@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Docker: Next.js",
+      "type": "node",
+      "request": "attach",
+      "remoteRoot": "/home/app",
+      "protocol": "inspector"
+    }
+  ]
+}
