@@ -20,6 +20,4 @@ RUN npm install
 
 COPY --from=build /usr/src/.next ./.next
 
-EXPOSE 3000
-
-ENTRYPOINT "npm start"
+ENTRYPOINT ["npm", "start"]
