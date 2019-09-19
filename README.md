@@ -32,3 +32,9 @@ $ docker-compose run --rm runner
 ```
 $ docker build -f docker/production/Dockerfile .
 ```
+
+## Push to GitHub Registry
+
+```
+$ docker push docker.pkg.github.com/murajun1978/example-github-registry-next-docker/example-next:[:TAG]
+```
