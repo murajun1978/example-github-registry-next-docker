@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-$ docker run docker.pkg.github.com/murajun1978/example-github-registry-next-docker/example-next:latest
+$ docker run --rm -p 3000:3000 docker.pkg.github.com/murajun1978/example-github-registry-next-docker/example-next:0.0.2
 ```
 
 ## Development
